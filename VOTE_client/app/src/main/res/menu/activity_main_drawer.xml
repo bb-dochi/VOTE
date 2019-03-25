@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mypage"
+            android:title="마이페이지" />
+    </group>
+
+    <item android:title="카테고리">
+        <menu>
+            <item
+                android:id="@+id/nav_food"
+                android:title="사회" />
+            <item
+                android:id="@+id/nav_shop"
+                android:title="쇼핑" />
+            <item
+                android:id="@+id/nav_day"
+                android:title="일상" />
+        </menu>
+    </item>
+
+</menu>

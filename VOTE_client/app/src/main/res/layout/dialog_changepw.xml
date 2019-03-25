@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/logo2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="현재 비밀번호"/>
+        <EditText
+            android:id="@+id/before"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="바꿀 비밀번호"/>
+        <EditText
+            android:id="@+id/after1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호 확인"/>
+        <EditText
+            android:id="@+id/after2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:text="변경"
+        android:id="@+id/change"
+        android:layout_width="60dp"
+        android:background="@drawable/selector"
+        android:layout_height="30dp" />
+</LinearLayout>

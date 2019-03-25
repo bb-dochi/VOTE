@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/logo2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/imageView2" />
+    <Button
+        android:textColor="#ffffff"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/selector"
+        android:id="@+id/changePW"
+        android:text="패스워드변경"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/selector"
+        android:text="개인정보변경"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/changeInfo"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/changePW"
+        android:layout_alignLeft="@+id/changePW"
+        android:layout_alignStart="@+id/changePW" />
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/selector"
+        android:text="돌아가기"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/back"
+        android:layout_marginTop="140dp"
+        android:layout_below="@+id/changePW"
+        android:layout_alignLeft="@+id/changePW"
+        android:layout_alignStart="@+id/changePW" />
+    <Button
+        android:background="@drawable/selector"
+        android:id="@+id/auto"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="자동로그인"
+        android:textColor="#ffffff"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/back"
+        android:layout_alignLeft="@+id/back"
+        android:layout_alignStart="@+id/back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/auto"
+        android:layout_alignStart="@+id/auto"
+        android:layout_below="@+id/auto" />
+
+
+</RelativeLayout>
